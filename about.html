@@ -209,16 +209,10 @@
                                 <div class="main-menu">
                                     <ul class="nav navbar-nav navbar-right">
                                         <li class="active"><a href="index.html">Home</a></li>
-                                        <li><a class="pagess" href="#">About us</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="team.html">Our Team</a></li>
-                                                <li><a href="review.html">Reviews</a></li>
-                                                <!-- <li><a href="faq.html">FAQ</a></li> -->
-                                                <!-- <li><a href="error.html">Error</a></li> -->
-                                            </ul>
+                                        <li><a class="pagess" href="team.html">Gallery</a>
+                                            
                                         </li>
-                                        <li><a class="pagess" href="product.html">Products</a>
+                                        <li><a class="pagess" href="product.html">Contact US</a>
                                             
                                         <!-- <li><a class="pagess" href="#">Gallery</a>
                                             <ul class="sub-menu">
@@ -255,16 +249,11 @@
                             <nav id="dropdown">
                                 <ul>
                                     <li><a href="index.html">Home</a></li>
-                                    <li><a class="pagess" href="about.html">About Us</a>
+                                    <li><a class="pagess" href="about.html">Gallery</a>
                                         <ul class="sub-menu" id="aboutUs">
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="team.html">Our Team</a></li>
-                                            <li><a href="review.html">Reviews</a></li>
-                                            <!-- <li><a href="faq.html">FAQ</a></li> -->
-                                            <!-- <li><a href="error.html">Error</a></li> -->
-                                        </ul>
+                                        
                                     </li>
-                                    <li><a class="pagess" href="product.html">Products</a>
+                                    <li><a class="pagess" href="product.html">Contact Us</a>
                                         <
                                     </li>
                                     <!-- <li><a class="pagess" href="#">Gallery</a>
@@ -308,11 +297,11 @@
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="breadcrumb text-center">
                             <div class="section-headline white-headline text-center">
-                                <h2>About Us</h2>
+                                <h2>Gallerry</h2>
                             </div>
                             <ul>
                                 <a href="index.html"><li class="home-bread">Home</li></a>
-                                <li>About Us</li>
+                                <li>Gallerry</li>
                             </ul>
                         </div>
                     </div>
@@ -320,221 +309,197 @@
             </div>
         </div>
         <!-- End breadcumb Area -->
-        <div class="about-area bg-color area-padding">
+        <style>
+            body {
+              font-family: Arial;
+              margin: 0;
+            }
+            
+            * {
+              box-sizing: border-box;
+            }
+            
+            img {
+              vertical-align: middle;
+            }
+            
+            /* Position the image container (needed to position the left and right arrows) */
+            .container {
+              position: relative;
+            }
+            
+            /* Hide the images by default */
+            .mySlides {
+              display: none;
+            }
+            
+            /* Add a pointer when hovering over the thumbnail images */
+            .cursor {
+              cursor: pointer;
+            }
+            
+            /* Next & previous buttons */
+            .prev,
+            .next {
+              cursor: pointer;
+              position: absolute;
+              top: 40%;
+              width: auto;
+              padding: 16px;
+              margin-top: -50px;
+              color: white;
+              font-weight: bold;
+              font-size: 20px;
+              border-radius: 0 3px 3px 0;
+              user-select: none;
+              -webkit-user-select: none;
+            }
+            
+            /* Position the "next button" to the right */
+            .next {
+              right: 0;
+              border-radius: 3px 0 0 3px;
+            }
+            
+            /* On hover, add a black background color with a little bit see-through */
+            .prev:hover,
+            .next:hover {
+              background-color: rgba(0, 0, 0, 0.8);
+            }
+            
+            /* Number text (1/3 etc) */
+            .numbertext {
+              color: #f2f2f2;
+              font-size: 12px;
+              padding: 8px 12px;
+              position: absolute;
+              top: 0;
+            }
+            
+            /* Container for image text */
+            .caption-container {
+              text-align: center;
+              background-color: #222;
+              padding: 2px 16px;
+              color: white;
+            }
+            
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            /* Six columns side by side */
+            .column {
+              float: left;
+              width: 16.66%;
+            }
+            
+            /* Add a transparency effect for thumnbail images */
+            .demo {
+              opacity: 0.6;
+            }
+            
+            .active,
+            .demo:hover {
+              opacity: 1;
+            }
+            </style>
+            <body>
+            
+            <h2 style="text-align:center">Slideshow Gallery</h2>
+            
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="half-headline">
-                            <h4>Cannabis Pharmaceutical Growers Ltd is locally owned, and is operated by a friendly and extremely knowledgeable staff.</h4>
-                            <p>Cannabis Pharmaceutical Growers Ltd offers a variety of cannabis infused items including coffee, tea, smoothies, and more, as well as smokable vapes and flower.</p>
-                        </div>
-                    </div>
+              <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="img/gallery/1.jpg" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="img/gallery/1.jpg" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="img/gallery/1.jpg" style="width:100%">
+              </div>
+                
+              <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="img/gallery/1.jpg" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="img/gallery/1.jpg" style="width:100%">
+              </div>
+                
+              <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="img/gallery/1.jpg" style="width:100%">
+              </div>
+                
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+            
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+            
+              <div class="row">
+                <div class="column">
+                  <img class="demo cursor" src="img/gallery/1.jpg" style="width:100%" onclick="currentSlide(1)" alt="weed">
                 </div>
-                <div class="row">
-                    <!-- column end -->
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="about-content">
-                            <div class="about-inner">
-                                <p>Established in 2021 as a result of legalisation of Cannabis Pharmaceutical Growers Ltd production in
-                                    Malawi , this family owned business was among the first group to obtain a
-                                    grower's licence . Since then CPG has been thriving to be pioneers in the
-                                    African cannabis industry in both quality and production volumes. Our
-                                    inhouse expertise in the Pharmaceutical and Farming technology has
-                                    proven to give us a competitive edge in this new and fast growing
-                                    industry .</p>
-                                <div class="about-details">
-                                    <ul class="about-list">
-                                        <li>Enjoy free a delicious cup of Cannabis Pharmaceutical Growers Ltd-enhanced coffee while you shop!</li>
-                                        <!-- <li>Conveniently located inside of Vigor, Charlotte's largest cannabis retailer and
-                                            spa</li> -->
-                                        <li>Vigor has several tools that help people both physically and mentally.
-                                            <ul>
-                                                <li>Health Relax (relaxation massages)</li>
-                                                <li>Where Does It Hurt (clinical bodywork)</li>
-                                                <li>Cannabis Pharmaceutical Growers Ltd</li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- column end -->
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="video-inner text-center">
-                            <div class="video-content">
-                                <a href="https://www.youtube.com/watch?v=1iIENII-lVo" class="video-play vid-zone">
-                                    <i class="fa fa-play"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="column">
+                  <img class="demo cursor" src="img/gallery/5.jpg" style="width:100%" onclick="currentSlide(2)" alt="weed">
                 </div>
+                <div class="column">
+                  <img class="demo cursor" src="img/gallery/4.jpg" style="width:100%" onclick="currentSlide(3)" alt="weed">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="img/gallery/3.jpg" style="width:100%" onclick="currentSlide(4)" alt="weed">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="img/gallery/2.jpg" style="width:100%" onclick="currentSlide(5)" alt="weed">
+                </div>    
+                <div class="column">
+                  <img class="demo cursor" src="img/gallery/1.jpg" style="width:100%" onclick="currentSlide(6)" alt="weed">
+                </div>
+              </div>
             </div>
-        </div>
-        <!-- about-area end -->
-        <!-- Start Service area -->
-        <div class="choose-area fix" data-stellar-background-ratio="0.6">
-            <div class="container-full">
-                <div class="row">
-                    <div class="col-md-offset-5 col-md-7 col-sm-12 col-xs-12">
-                        <div class="choose-wrapper">
-                            <div class="section-headline left-headline text-left">
-                                <h4>Why choose us? Cannabis Pharmaceutical Growers Ltd has cannabis products for every need! What exactly do we offer?</h4>
-                            </div>
-                            <div class="row">
-                                <div class="choose-all">
-                                    <!-- Start services -->
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <div class="single-choose">
-                                            <a class="choose-images" href="#"><i class="flaticon-010-opium"></i></a>
-                                            <div class="choose-content">
-                                                <h5><a href="#">Compassionate Care</a></h5>
-                                                <p>Our staff is knowledgeable and friendly, helping you figure out exactly what you need every step along the way.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Start services -->
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <div class="single-choose">
-                                            <a class="choose-images" href="#"><i class="flaticon-012-marijuana"></i></a>
-                                            <div class="choose-content">
-                                                <h5><a href="#">Natural Medicine</a></h5>
-                                                <p>Cannabis has been known for ages for its medicinal benefits. Swing by today to see what Cannabis Pharmaceutical Growers Ltd can do for you!</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Start services -->
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <div class="single-choose">
-                                            <a class="choose-images" href="#"><i class="flaticon-011-marijuana-1"></i></a>
-                                            <div class="choose-content">
-                                                <h5><a href="#">Incredible Selection</a></h5>
-                                                <p>From hemp flower to pet products, we have got you covered! We are Charlotte's leading retailer of cannabis products.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Start services -->
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <div class="single-choose">
-                                            <a class="choose-images" href="#"><i class="flaticon-029-bong"></i></a>
-                                            <div class="choose-content">
-                                                <h5><a href="#">Quality Products</a></h5>
-                                                <p>All of our products are sustainably sourced from regional vendors, ensuring you get the best quality products.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Start services -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Service area -->
-       <!-- Start Banner Area -->
-        <div class="banner-area fix">
-            <div class="container-full">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                        <div class="banner-content">
-                            <div class="banner-left">
-                                <h3>Contact Our Team!</h3>
-                                <div class="contact-button">
-                                    <a class="btn-contact" href="contact.html">Call Now!</a>
-                                    <!-- <a class="btn-contact" href="#">Dispensaries</a> -->
-                                </div>
-                            </div>
-                            <div class="brand-content">
-                                <div class="brand-image">
-                                    <img src="img/logo/MittysNewLogo.png" alt="mittys-logo">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Banner Area -->
-        <!-- Team area start -->	
-        <div class="team-area area-padding">
-            <div class="container">
-                <!-- section head -->
-                <div class="row">
-					<div class="col-md-12 col-sm-12 col-xs-12">
-						<div class="section-headline text-center">
-						    <h2>Our <span class="color">Team</span></h2>
-						    <p>We sell the best Cannabis Pharmaceutical Growers Ltd cannabis products available in the world to enable you and your loved ones to live well.</p>
-						</div>
-					</div>
-				</div>
-                <div class="row">
-                    <div class="team-member team-carousel text-center">
-                        <!-- Single team member -->
-                        
-                        <!-- Single team member -->
-                        <div class="col-md-4 col-sm-4 col-xs-12">
-                            <div class="single-member">
-                                <div class="team-img">
-                                    <a href="#">
-                                        <img src="img/team/Emmanuel Ekewenu.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="team-content">
-                                    <h5><a href="#">Emmanuel Ekewenu</a></h5>
-                                    <p>Co-Founder</p>
-                                    <ul class="team-hover">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single team member -->
-                        <div class="col-md-4 col-sm-4 col-xs-12">
-                            <div class="single-member">
-                                <div class="team-img">
-                                    <a href="#">
-                                        <img src="img/team/Tsitsi Gara.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="team-content">
-                                    <h5><a href="#">Tsitsi Gara</a></h5>
-                                    <p>COO / Co-Founder</p>
-                                    <ul class="team-hover">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Team Member -->
-                        <div class="col-md-4 col-sm-4 col-xs-12">
-                            <div class="single-member">
-                                <div class="team-img">
-                                    <a href="#">
-                                        <img src="img/team/Caroline Bakasa.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="team-content">
-                                    <h5><a href="#">Caroline Bakasa</a></h5>
-                                    <p>CEO / Founder</p>
-                                    <ul class="team-hover">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single team member -->
-                    </div>
-                </div>
-            </div>
-        </div>
+            
+            <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("demo");
+              let captionText = document.getElementById("caption");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+              captionText.innerHTML = dots[slideIndex-1].alt;
+            }
+            </script>
         <!-- team area end -->
     <!-- Start Footer bottom Area -->
     <footer class="footer-1">
