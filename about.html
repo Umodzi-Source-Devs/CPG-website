@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
+    
 
 <head>
 
@@ -11,13 +12,20 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-153183482-1');
+
+        function removeHash() {
+            history.pushState("", document.title, window.location.pathname
+                + window.location.search);
+        };
+        window.setTimeout(removeHash(), 2500)
+
     </script>
 
 
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Cannabis Pharmaceutical Growers Ltd </title>
-    <meta name="description" content="">
+    <meta name="description" content="Cannabis Pharmaceutical Growers Ltd Specializes in locally-sourced premium Cannabis Pharmaceutical Growers Ltd products.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Matt Gennings, matt@m3digital.co">
     <meta name="keywords"
@@ -45,7 +53,9 @@
     <!-- favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="img/logo/favicon.ico">
 
+
     <!-- all css here -->
+
 
     <!-- Snipcart -->
     <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.4/default/snipcart.css" />
@@ -82,7 +92,7 @@
     <div id="preloader"></div>
     <header>
         <!-- Start top bar -->
-        <div class="topbar-area fix hidden-xs">
+        <!-- <div class="topbar-area fix hidden-xs">
             <div class="container">
                 <div class="row">
                     <div class=" col-md-6 col-sm-6">
@@ -90,28 +100,25 @@
                             <a class="log-in" href="#">Login</a>
                             <a class="log-in" href="#">Register</a>
                         </div> -->
-                    </div>
+                    <!-- </div>
                     <div class="col-md-6 col-sm-6">
                         <div class="top-social">
                             <ul>
-                                <li><a href="https://www.yelp.com/biz/mittys-Cannabis Pharmaceutical Growers Ltd-cafe-charlotte-5" target="_blank"><i class="fa fa-yelp"></i></a></li>
-                                <li><a href="https://g.page/mittysCannabis Pharmaceutical Growers Ltd" target="_blank"><i class="fa fa-google"></i></a></li>
-                                <li><a href="https://www.instagram.com/mittys_Cannabis Pharmaceutical Growers Ltd_cannabis_cafe" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="https://www.facebook.com/mittysCannabis Pharmaceutical Growers Ltd" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.yelp.com/biz/mittys-Cannabis Pharmaceutical Growers Ltd-cafe-charlotte-5" target="_blank"><i
+                                            class="fa fa-yelp"></i></a></li>
+                                <li><a href="https://g.page/mittysCannabis Pharmaceutical Growers Ltd" target="_blank"><i class="fa fa-google"></i></a>
+                                </li>
+                                <li><a href="https://www.instagram.com/mittys_Cannabis Pharmaceutical Growers Ltd_cannabis_cafe" target="_blank"><i
+                                            class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/mittysCannabis Pharmaceutical Growers Ltd" target="_blank"><i
+                                            class="fa fa-facebook"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- End top bar -->
-
-
-
-
-
-
-
 
 
         <!-- header-area start -->
@@ -123,7 +130,7 @@
                         <div class="logo">
                             <!-- Brand -->
                             <a class="navbar-brand page-scroll sticky-logo" href="index.html">
-                                <img src="img/logo/MittysNewLogo.png" style="width:300px" alt="mittys-logo">
+                               <center> <img src="img/logo/MittysNewLogo.png" style="width: 200px" alt="CPG"></center>
                             </a>
                         </div>
                     </div>
@@ -131,7 +138,7 @@
                     <div class="col-md-8 col-sm-8">
                         <div class="header-middle-link">
                             <div class="header-info">
-                                <div class="header-icon">
+                                <!-- <div class="header-icon">
                                     <i class="icon icon-phone-handset"></i>
                                 </div>
                                 <div class="header-info-text">
@@ -155,9 +162,9 @@
                                 <div class="header-info-text">
                                     <span class="info-first">Location</span>
                                     <div>
-                                        <span class="info-simple">Box 30726 Lilongwe
-Malawi
-Reg : 1013428</span>
+                                        <span class="info-simple">Box 30726 Lilongwe  Malawi
+                                            Reg : 1013428 -->
+                                           </span>
                                     </div>
                                 </div>
                             </div>
@@ -174,7 +181,7 @@ Reg : 1013428</span>
                     <div class="col-md-12 col-sm-12">
                         <div class="header-right-link">
                             <!-- search option start -->
-                       <!-- <form action="#">
+                            <!-- <form action="#">
                                 <div class="search-option">
                                     <input type="text" placeholder="Search...">
                                     <button class="button" type="submit"><i class="fa fa-search"></i></button>
@@ -183,7 +190,7 @@ Reg : 1013428</span>
                             <!-- search option end -->
 
                         </div>
-                        <div class="top-social">
+                        <!-- <div class="top-social">
                             <button class="snipcart-checkout" style="    color: #fff;
                             font-size: 15px;
                             font-weight: bold;
@@ -195,14 +202,14 @@ Reg : 1013428</span>
                             margin-right: 15px;
                             position:relative;
                             top:-10px">Checkout <i class="fa fa-shopping-cart"></i></button>
-                        </div>
+                        </div> -->
                         <!-- mainmenu start -->
-                        <nav class="navbar navbar-default">
+                        <nav class="navbar navbar-right">
                             <div class="collapse navbar-collapse" id="navbar-example">
                                 <div class="main-menu">
                                     <ul class="nav navbar-nav navbar-right">
                                         <li class="active"><a href="index.html">Home</a></li>
-                                        <li><a class="pagess" href="#">About Us</a>
+                                        <li><a class="pagess" href="#">About us</a>
                                             <ul class="sub-menu">
                                                 <li><a href="about.html">About Us</a></li>
                                                 <li><a href="team.html">Our Team</a></li>
@@ -211,17 +218,8 @@ Reg : 1013428</span>
                                                 <!-- <li><a href="error.html">Error</a></li> -->
                                             </ul>
                                         </li>
-                                                                                <li><a class="pagess" href="product.html">Products</a>
-                                            <ul class="sub-menu">
-                                               <li><a href="products/beauty.html">Beauty</a></li>
-                                                <li><a href="products/beverages.html">Beverages</a></li>
-                                                <li><a href="products/gummies.html">Gummies</a></li>
-                                                <li><a href="products/pet-treats.html">Pet Treats</a></li>
-                                                <li><a href="products/soft-gels.html">Soft Gels</a></li>
-                                                <li><a href="products/tinctures.html">Tinctures</a></li>
-                                                <li><a href="products/topicals.html">Topicals</a></li>
-                                            </ul>
-                                        </li>
+                                        <li><a class="pagess" href="product.html">Products</a>
+                                            
                                         <!-- <li><a class="pagess" href="#">Gallery</a>
                                             <ul class="sub-menu">
                                                 <li><a href="gallery-2.html">Cannabis Pharmaceutical Growers Ltd Cafe</a></li>
@@ -231,6 +229,8 @@ Reg : 1013428</span>
                                         </li> -->
                                         <!-- <li><a class="pagess" href="blog.html">Blog</a>
                                         </li> -->
+                                        <!--                                         <!-- <li><a href="contact.html">Contact</a></li> -->
+
                                                                                 <!-- <li><a href="contact.html">Contact</a></li> -->
 
                                     </ul>
@@ -265,15 +265,7 @@ Reg : 1013428</span>
                                         </ul>
                                     </li>
                                     <li><a class="pagess" href="product.html">Products</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="products/beauty.html">Beauty</a></li>
-                                                <li><a href="products/beverages.html">Beverages</a></li>
-                                                <li><a href="products/gummies.html">Gummies</a></li>
-                                                <li><a href="products/pet-treats.html">Pet Treats</a></li>
-                                                <li><a href="products/soft-gels.html">Soft Gels</a></li>
-                                                <li><a href="products/tinctures.html">Tinctures</a></li>
-                                                <li><a href="products/topicals.html">Topicals</a></li>
-                                        </ul>
+                                        <
                                     </li>
                                     <!-- <li><a class="pagess" href="#">Gallery</a>
                                         <ul class="sub-menu">
@@ -282,12 +274,12 @@ Reg : 1013428</span>
                                             <li><a href="gallery-3.html">Where Does It Hurt</a></li>
                                         </ul>
                                     </li> -->
-                                  <!-- <li><a class="pagess" href="blog.html">Blog</a>
+                                    <!-- <li><a class="pagess" href="blog.html">Blog</a>
                                     </li> -->
                                                                             <!-- <li><a href="contact.html">Contact</a></li> -->
 
                                     <li><a href="#nav" class="meanclose"></a>
-                                            <button class="snipcart-checkout" style="    color: #fff;
+                                        <button class="snipcart-checkout" style="    color: #fff;
                                         font-size: 15px;
                                         font-weight: bold;
                                         padding: 5px 11px;
@@ -296,7 +288,7 @@ Reg : 1013428</span>
                                         background: #16A05D;
                                         border: 1px solid #16A05D;
                                         
-                                        position:relative">Checkout <i class="fa fa-shopping-cart"></i></button>
+                                        /* position:relative">Checkout <i class="fa fa-shopping-cart"></i></button> */
                                     </li>
                                 </ul>
                             </nav>
